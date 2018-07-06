@@ -21,7 +21,7 @@ public class DCInputField: UIStackView {
         super.init(frame: frame)
     }
     
-    init(label: String = "DC Input"){
+    public init(label: String = "DC Input"){
         super.init(frame: CGRect(x: 0, y: 0, width: 1, height: 40))
         self.label.text = label
         self.textField.placeholder = label
