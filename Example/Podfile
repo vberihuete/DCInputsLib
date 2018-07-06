@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DCInputs_Example' do
+  pod 'DCInputs', :path => '../'
+
+  target 'DCInputs_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
