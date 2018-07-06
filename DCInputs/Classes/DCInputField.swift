@@ -22,11 +22,12 @@ public class DCInputField: UIStackView {
         super.init(frame: frame)
     }
     
-    public init(label: String = "DC Input", keyboard kType: UIKeyboardType = .default, returnAction: @escaping (_ textField: UITextField) -> () = {textField in textField.endEditing(true)}){
+    public init(label: String = "DC Input", keyboard kType: UIKeyboardType = .default, returnKey rType: UIReturnKeyType = .default, returnAction: @escaping (_ textField: UITextField) -> () = {textField in textField.endEditing(true)}){
         super.init(frame: CGRect(x: 0, y: 0, width: 1, height: 40))
         self.label.text = label
         self.textField.placeholder = label
         self.textField.keyboardType = kType
+        self.textField.returnKeyType = rType
         self.returnAction = returnAction
         setupViews()
     }
