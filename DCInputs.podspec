@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCInputs'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'Core libraries for inputs developed by the Dev Core Team'
 
 # This description is used to generate tags and improve search results.
