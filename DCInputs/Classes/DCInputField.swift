@@ -10,9 +10,9 @@ import UIKit
 
 public class DCInputField: UIStackView {
 
-    let textField = UITextField()
-    let label = UILabel()
-    let borderView = UIView()
+    public let textField = UITextField()
+    public let label = UILabel()
+    public let borderView = UIView()
     
     
     //MARK: - configuration
@@ -64,7 +64,7 @@ extension DCInputField: UITextFieldDelegate{
         return true;
     }
     
-    @objc public func textFieldTyping(_ sender: UITextField){
+    @objc open func textFieldTyping(_ sender: UITextField){
         if !label.isHidden && sender.text?.isEmpty == true{
             UIView.animate(withDuration: 0.2){
                 self.label.isHidden = true
