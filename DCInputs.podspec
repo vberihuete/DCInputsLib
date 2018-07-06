@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DCInputs'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DCInputs.'
+  s.summary          = 'Core libraries for inputs developed by the Dev Core Team'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Core libraries for inputs developed by Dev Core Team. In here you will find InputFields with own labels and pre defined animations'
 
-  s.homepage         = 'https://github.com/Vincent Berihuete/DCInputs'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/vberihuete/DCInputsLib'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vincent Berihuete' => 'vberihuete@gmail.com' }
-  s.source           = { :git => 'https://github.com/Vincent Berihuete/DCInputs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vberihuete/DCInputsLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DCInputs/Classes/**/*'
+  s.swift_version = '3.2'
   
   # s.resource_bundles = {
   #   'DCInputs' => ['DCInputs/Assets/*.png']

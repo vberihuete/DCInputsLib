@@ -1,0 +1,6 @@
+framework module DCInputs {
+  umbrella header "DCInputs-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -40,12 +40,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		857490C26A1A4A6C88B54F72 /* Pods-DCInputs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCInputs_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCInputs_Tests/Pods-DCInputs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF190F3115C4072C4D1617CA /* DCInputs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DCInputs.podspec; path = ../DCInputs.podspec; sourceTree = "<group>"; };
+		AF190F3115C4072C4D1617CA /* DCInputs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCInputs.podspec; path = ../DCInputs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC86BD47AF18F4E6E01DD710 /* Pods_DCInputs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCInputs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1361E7E9446FBC39E2CBF2D /* Pods-DCInputs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCInputs_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCInputs_Tests/Pods-DCInputs_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D71EF592BE69F7AA4CE4EF7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D71EF592BE69F7AA4CE4EF7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E51A1C986D71D76A8A73EB0E /* Pods_DCInputs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCInputs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40C0FB9BA1028E71BBE82B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F40C0FB9BA1028E71BBE82B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF49376C83976990CAE424F1 /* Pods-DCInputs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCInputs_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCInputs_Example/Pods-DCInputs_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

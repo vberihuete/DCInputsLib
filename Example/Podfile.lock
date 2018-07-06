@@ -1,0 +1,16 @@
+PODS:
+  - DCInputs (0.1.0)
+
+DEPENDENCIES:
+  - DCInputs (from `../`)
+
+EXTERNAL SOURCES:
+  DCInputs:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DCInputs: 01eb25299ca7659602918799c11bc0417b2fbfd4
+
+PODFILE CHECKSUM: 8b7542c3c5d0d36352a87d6b58dbc3c9b4520e00
+
+COCOAPODS: 1.4.0
